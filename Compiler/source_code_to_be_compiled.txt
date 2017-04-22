@@ -1,0 +1,184 @@
+class HireMe {
+	public bool topQuality = true;
+	public char grade = 'A';
+	private int productivityLevel = 2147483647;
+	public bool qualifications[] = new bool[1000];
+	public bool isFullofHimself(){
+		return this.topQuality;
+	}
+
+	HireMe(){
+		CallToday iWill = new CallToday('U');
+		char answer;
+		input >> answer;
+		if (answer == 'N') {
+			answer = 'Y';
+		}
+		else if (answer == 'Y'){
+			answer = 'Y';
+		}
+		else {
+			answer = 'Y';
+		}
+	}
+}
+
+class Please {
+	public void sincere(){
+		int i = 1000000;
+		while(i > 0){
+			output << 'p';
+			output << 'r';
+			output << 'e';
+			output << 't';
+			output << 't';
+			output << 'y';
+			output << '\n';
+		}
+
+		output << 'p';
+		output << 'l';
+		output << 'e';
+		output << 'a';
+		output << 's';
+		output << 'e';
+		output << '!';
+	}
+
+	Please(){}
+}
+
+class CallToday {	
+	private int myNumber;
+	
+	public ThinkOfTheChildren dail(HireMe noRegrets){
+		ThinkOfTheChildren thoughtfulContemplation = new ThinkOfTheChildren(2);
+		Please pretty = new Please();
+		pretty.sincere();
+		return thoughtfulContemplation;
+	}
+
+	CallToday(char you){
+		this.myNumber = +1-530-798-0879;
+	}
+}
+
+class ThinkOfTheChildren {
+	private int children;
+	private bool areHungry;
+	private bool areDestitute;
+	private bool fatherIsRidiculous;
+
+	ThinkOfTheChildren(int children){
+		this.children = children;
+		this.areHungry = true;
+		this.areDestitute = true;
+		this.fatherIsRidiculous = true;
+	}
+}
+
+class DoIt {
+	public HireMe Wyatt = new HireMe();
+	public HireMe SomeoneElse = null;
+	public bool garbage = Wyatt.isFullofHimself();
+
+	DoIt(){
+
+		// The following code will generate explicate errors
+
+		//ERRORS       							// FIX
+		
+		//int a 								// int a;
+		//int b = true;							// bool b = true;
+		////DoItt(int a){} 						// DoIt(int a){} 
+		//int c = Wyatt.productivityLevel; 		// change private to public]
+		//if(3){}								// if(3 > 2){}
+	}
+}
+
+//The compiler currently checks for syntatic and semantic errors regarding classes and arrays.
+//There is no code generation for classes and arrays.
+
+void comp2017 main() {
+
+	int intFive = atoi('5');
+	char charFive = itoa(5);
+
+    int k;
+    int j;
+    int sum;
+    int two = 2;
+
+	output << 'E';
+	output << 'n';
+	output << 't';
+	output << 'e';
+	output << 'r';
+	output << ' ';
+	output << 'a';
+	output << 'n';
+	output << ' ';
+	output << 'i';
+	output << 'n';
+	output << 't';
+	output << 'e';
+	output << 'g';
+	output << 'e';
+	output << 'r';
+	output << ' ';
+	output << 'o';
+	output << 'r';
+	output << ' ';
+	output << '0';
+	output << ' ';
+	output << 't';
+	output << 'o';
+	output << ' ';
+	output << 'e';
+	output << 'x';
+	output << 'i';
+	output << 't';
+	output << ':';
+	output << '\n';
+    output << '>';
+    input >> k;
+    output << '\n';
+	
+
+    while (k != 0) {   
+	if (k < 0) {
+	    k = 5 + k * -1 - two;
+	    sum = 0;
+	    while (k > 0) {		
+		j = k;
+		while (j > 0) {
+		    if ((j / 3) == 0)
+			sum = sum + j;
+		    j = j - 1;
+		}
+		k = k - 1;
+	    }
+
+	    output << sum;
+	    output << '\n';
+	}
+	else {
+		j = 1;
+		sum = 0;
+		while(j <= k * 100) {
+		    sum = sum + (j + sum * sum - 5 * 3)/(sum + j - 5 * 17);
+
+		    if (sum >= 100 and sum <= 400) 
+				sum = sum + two - sum * 7 / 13;
+		    j = j + 1;
+		    
+		}
+	    output << sum;
+	    output << '\n';
+	}
+
+	output << '>';
+	input >> k;
+	output << '\n';
+    }
+}

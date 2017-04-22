@@ -1,0 +1,2 @@
+CALL java -jar compiler.jar source_code_to_be_compiled.txt
+CALL virtual_machine_to_convert_to_binary_and_execute.exe assembly_output.asm
