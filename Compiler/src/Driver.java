@@ -7,9 +7,10 @@ import java.util.regex.Pattern;
 import java.io.*;
 
 // Recursive Descent Compiler:
-// Compiles a .txt source code file into assembly output to t.asm 
-// to be assembled and executed by the assembler/virtual machine: vm.exe.
-// One Argument: fileName (e.g. $java -jar Compiler.jar mySourceCode.txt)
+// Compiles a .txt source code file into assembly output to assembly_output.asm 
+// to be assembled and executed by the assembler/virtual machine: 
+// virtual_machine_to_convert_to_binary_and_execute.exe.
+// One Argument: fileName (e.g. $java -jar Compiler.jar source_code_to_be_compiled.txt)
 
 public class Driver {
 	public static Boolean pass1 = true;
