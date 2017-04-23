@@ -1,4 +1,4 @@
-# MultiThreaded Buffered Prime Factorial Solver by Wyatt Sorenson
+# MultiThreaded Prime Factorial Solver by Wyatt Sorenson
 
 Requirements: gcc
 
