@@ -1,19 +1,3 @@
-# Grocery Inventory Manager
-
-# By Wyatt Sorenson
-
-# Requirements: Python and browser
-
-# How to use: (e.g. python Grocery_list_sorting.py glist.json grocery.html)
-
-# This program utilized JSON objects that contains a list of departments and a dicitonary of grocery items.
-# It sorts the items by department and lists:
-# All Items
-# Active Items
-# Out of Stock Items
-# Overstocked Items
-# Inventory Overhead
-
 import sys
 import  json
 
@@ -23,7 +7,7 @@ jsonObject = json.load(open(sys.argv[1]))
 ListSorted = sorted(jsonObject["itemList"], key = lambda k: jsonObject["storeOrder"].index(k["section"]))
 print "Sorting Successful!"
 
-def printTable(listFilter, listName):
+def genTable(listFilter, listName):
 	outputObject.write("<h3>" + listName + ":</h5>\n<table>\n<tr><th>Name</th><th>Contents</th><th>Dept</th><th>Notes</th></tr>\n")
 	for item in listFilter:
 		outputObject.write("<tr>")
@@ -44,19 +28,19 @@ outputObject = open(sys.argv[2], "w+")
 outputObject.write("<!DOCTYPE html>\n<html><head>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"></head>\n<body>\n<h2>Grocery Management Report\n\n")
 
 # All items in the system
-printTable(ListSorted, "All")
+genTable(ListSorted, "All")
 
 # Filtering "active" by list comprehension and generating table
 activeFiltered = [x for x in ListSorted if x["status"] != 0]
-printTable(activeFiltered, "Currently Active")
+genTable(activeFiltered, "Currently Active")
 
 # Filtering "Reorder" by list comprehension
 reorderFiltered = [x for x in ListSorted if x["status"] != 0 and x["amountNumber"] < 1]
-printTable(reorderFiltered, "Out of Stock/Reorder")
+genTable(reorderFiltered, "Out of Stock/Reorder")
 
 # Filtering "Overstock/Discount for quick sale" by list comprehension
 overstockFiltered = [x for x in ListSorted if x["status"] != 0 and x["amountNumber"] > 100]
-printTable(overstockFiltered, "Overstock/Discount")
+genTable(overstockFiltered, "Overstock/Discount")
 
 # Overhead
 overhead()
