@@ -1,6 +1,3 @@
-# build an executable named ThreadedBuffer from ThreadedBuffer.c
-all: ThreadedBuffer.c
-	gcc -pthread -o ThreadedBuffer ThreadedBuffer.c
-
-clean: 
-	$(RM) ThreadedBuffer
+# build an executable named MultithreadedBuffer from MultithreadedBuffer.c
+all: MultithreadedBuffer.c
+	gcc -pthread -o MultithreadedBuffer MultithreadedBuffer.c

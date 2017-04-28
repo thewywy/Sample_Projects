@@ -1,0 +1,7 @@
+Usage:
+<-p or --port> <1-65536>                        listens on given port  
+<-? or -h or --help>                            displays usage
+<-! or --about>                                 displays about
+<-v or --version>                               displays version
+<-p or --port> <-e>                             listens on default port
+<-p or --port> <-e> <PORT>                      listens on given alias

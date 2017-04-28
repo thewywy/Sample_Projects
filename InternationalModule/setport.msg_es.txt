@@ -1,0 +1,10 @@
+Error: "Acerca de" no tiene argumentos adicionales.
+Error: 'Versión' complementarias que no tiene argumentos.
+Versión: 
+Error: 'Ayuda' no tiene argumentos adicionales.
+Error: falta el número de puerto.
+Error: "ambiental" no tiene argumentos adicionales.
+Error: Sólo incluir un argumento puerto.
+Error: La siguiente no es un entero entre 1 y 65535: 
+Error: Los argumentos inválidos.
+Escucha en el puerto 

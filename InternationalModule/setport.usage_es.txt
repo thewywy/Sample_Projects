@@ -1,0 +1,7 @@
+Uso:
+<-p or --port> <1-65536>                        escucha en el puerto dado  
+<-? or -h or --help>                            el uso de pantallas
+<-! or --about>                                 muestras sobre
+<-v or --version>                               muestra la versión
+<-p or --port> <-e>                             escucha en el puerto por defecto
+<-p or --port> <-e> <PORT>                      escucha en el alias de dados

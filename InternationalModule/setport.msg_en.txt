@@ -1,0 +1,10 @@
+Error: 'About' takes no addtional arguments.
+Error: 'Version' takes no addtional arguments.
+Version: 
+Error: 'Help' takes no additional arguments.
+Error: Missing port number.
+Error: 'environmental' takes no additional arguments.
+Error: Only include one port argument.
+Error: The following is not an int between 1 and 65535: 
+Error: Invalid arguments.
+Listening on port 
