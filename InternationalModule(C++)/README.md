@@ -1,10 +1,7 @@
-# setport
-CS 3370 setport by Wyatt Sorenson
+# Setport by Wyatt Sorenson
 
-to run:
-$./setport
-(This will give the program's usage)
+How to use: $./setport -h
 
 Setport will listen on a psuedo-socket on a given port. A port number can be
 given or defaulted.  It can auto-detect the environment's language for English
-or Spanish.
+or Spanish by way of the environmental Variable "LANG".
