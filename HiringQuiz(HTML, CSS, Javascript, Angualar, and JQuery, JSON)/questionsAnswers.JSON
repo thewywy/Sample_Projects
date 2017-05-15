@@ -1,0 +1,40 @@
+{
+    "QandA": [
+        {
+            "q": "Should you really you hire Wyatt Sorenson?", 
+            "a": "Yes, of course!  Don't even think about it.  Just do it."
+        },
+        {
+            "q": "Why should you hire Wyatt Sorenson?", 
+            "a": "He's a nice guy, and he knows all the best jokes."
+        },
+        {
+            "q": "Are you still not convinced?", 
+            "a": "Okay, he has had years of experience in school and on the job with the programing paradigms, languages, concepts, and tools."
+        },
+        {
+            "q": "Are you still not sure?", 
+            "a": "He doesn't want to beg, but he will if he must."
+        },
+        {
+            "q": "Would his skills benefit your team's goals?", 
+            "a": "Certainly! He wants to tackle new challenges with his abilities."
+        },
+        {
+            "q": "Are you going to call him?", 
+            "a": "I don't know, but that would be terrific!"
+        },
+        {
+            "q": "What are the components of MVC Wyatt used to make this page?", 
+            "a": "JSON, HTML, CSS, Javascript, Angular, and JQuery"
+        },
+        {
+            "q": "What is Wyatt Sorenson doing this very second?", 
+            "a": "Practicing his skills and sitting by the phone."
+        },
+        {
+            "q": "Should you pity him for his cheesiness and unashamed pleadings?", 
+            "a": "Maybe a little."
+        }
+    ]
+}
