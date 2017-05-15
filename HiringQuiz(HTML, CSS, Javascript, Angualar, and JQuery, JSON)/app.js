@@ -8,7 +8,7 @@ app.controller('MainCtrl',function($scope, $http){
 .config(['$routeProvider',function($routeProvider){
 $routeProvider.
 when('/', {
-  template:'<h1>Welcome to my home page</h1>',
+  template:'<h1>Home</h1>',
   controller:'MainCtrl'
   }).
   when('/1Page', {
