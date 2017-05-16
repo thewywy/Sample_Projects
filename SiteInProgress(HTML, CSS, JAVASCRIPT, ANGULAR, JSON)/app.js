@@ -1,8 +1,10 @@
-var app = angular.module('app',['ngRoute']);
+var app = angular.module('app',['ngRoute', 'ngTable']);
 
 app.controller('MainCtrl',function($scope, $http){
     $http.get("questionsAnswers.JSON")
     .then(function (response) {$scope.questions = response.data.QandA;});
+    $http.get("customerData.JSON")
+    .then(function (response) {$scope.customers = response.data.customers;});
 })
 
 .config(['$routeProvider',function($routeProvider){

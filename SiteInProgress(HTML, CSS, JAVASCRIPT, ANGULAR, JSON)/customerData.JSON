@@ -1,0 +1,40 @@
+{
+    "customers": [
+        {
+            "n": "Fred Smith", 
+            "a": 33
+        },
+        {
+            "n": "Nora Jones", 
+            "a": 32
+        },
+        {
+            "n": "Roger Stafford", 
+            "a": 44
+        },
+        {
+            "n": "Alex Rickstraw", 
+            "a": 57
+        },
+        {
+            "n": "Mary Sue", 
+            "a": 99
+        },
+        {
+            "n": "Sally Fields", 
+            "a": 74
+        },
+        {
+            "n": "Jerry Hanaway", 
+            "a": 50
+        },
+        {
+            "n": "Julieanne Zlaket", 
+            "a": 23
+        },
+        {
+            "n": "Sarah Swanson", 
+            "a": 26
+        }
+    ]
+}

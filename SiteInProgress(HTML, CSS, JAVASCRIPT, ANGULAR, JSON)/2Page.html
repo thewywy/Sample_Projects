@@ -1,5 +1,15 @@
 <html>
 </body>
-<h1>Check back for exciting changes!</h1>
+<h1>Customer Filtering</h1>
+
+<table ng-table="vm.tableParams" class="table" show-filter="true">
+    <tr ng-repeat="customer in customers">
+        <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
+            {{customer.n}}</td>
+        <td title="'Age'" filter="{ age: 'number'}" sortable="'age'">
+            {{customer.a}}</td>
+    </tr>
+</table>
+
 </body>
 </html>
