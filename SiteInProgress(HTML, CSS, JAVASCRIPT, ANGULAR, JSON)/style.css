@@ -1,7 +1,8 @@
 table, th , td {
-  border: 1px solid grey;
+  border: 2px solid black;
   border-collapse: collapse;
   padding: 5px;
+  border-radius: 5px;
 }
 table tr:nth-child(odd) {
   background-color: teal;
@@ -10,8 +11,15 @@ table tr:nth-child(even) {
   background-color: aqua;
 }
 body {
-    background-color: lightblue;
+    background-color: #00C0C0;
 }
 h1{
 	text-align: center;
+	background: aqua;
+	border: 2px solid black;
+    border-radius: 5px;
+}
+a{
+	color: #000000;
+	text-decoration: none;
 }

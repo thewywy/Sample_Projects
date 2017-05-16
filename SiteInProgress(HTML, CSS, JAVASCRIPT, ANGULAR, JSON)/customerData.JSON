@@ -1,40 +1,68 @@
 {
     "customers": [
         {
-            "n": "Fred Smith", 
-            "a": 33
+            "name": "Fred Smith", 
+            "id": 1033,
+            "state": "NV"
         },
         {
-            "n": "Nora Jones", 
-            "a": 32
+            "name": "Nora Jones", 
+            "id": 1032,
+            "state": "NV"
         },
         {
-            "n": "Roger Stafford", 
-            "a": 44
+            "name": "Roger Stafford", 
+            "id": 1044,
+            "state": "OR"
         },
         {
-            "n": "Alex Rickstraw", 
-            "a": 57
+            "name": "Alex Rickstraw", 
+            "id": 1057,
+            "state": "CA"},
+        {
+            "name": "Mary Sue", 
+            "id": 1099,
+            "state": "UT"
         },
         {
-            "n": "Mary Sue", 
-            "a": 99
+            "name": "Sally Fields", 
+            "id": 1074,
+            "state": "AZ"
         },
         {
-            "n": "Sally Fields", 
-            "a": 74
+            "name": "Jerry Hanaway", 
+            "id": 1050,
+            "state": "NM"
         },
         {
-            "n": "Jerry Hanaway", 
-            "a": 50
+            "name": "Julieanne Zlaket", 
+            "id": 1023,
+            "state": "NM"
         },
         {
-            "n": "Julieanne Zlaket", 
-            "a": 23
+            "name": "Sarah Swanson", 
+            "id": 1026,
+            "state": "CA"
         },
         {
-            "n": "Sarah Swanson", 
-            "a": 26
+            "name": "Alan Chandler", 
+            "id": 1023,
+            "state": "CO"
+        },
+        {
+            "name": "Henry Jacobs", 
+            "id": 1023,
+            "state": "NV"
+        },
+        {
+            "name": "Benny Stevenson", 
+            "id": 1023,
+            "state": "ID"
+        },
+        {
+            "name": "Chris Neely", 
+            "id": 1023,
+            "state": "CA"
         }
     ]
 }

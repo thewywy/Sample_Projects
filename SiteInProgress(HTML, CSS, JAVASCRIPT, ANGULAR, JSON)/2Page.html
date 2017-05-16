@@ -5,9 +5,11 @@
 <table ng-table="vm.tableParams" class="table" show-filter="true">
     <tr ng-repeat="customer in customers">
         <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
-            {{customer.n}}</td>
-        <td title="'Age'" filter="{ age: 'number'}" sortable="'age'">
-            {{customer.a}}</td>
+            {{customer.name}}</td>
+        <td title="'Customer ID'" filter="{ id: 'number'}" sortable="'id'">
+            {{customer.id}}</td>
+        <td title="'State'" filter="{ state: 'text'}" sortable="'state'">
+            {{customer.state}}</td>
     </tr>
 </table>
 
