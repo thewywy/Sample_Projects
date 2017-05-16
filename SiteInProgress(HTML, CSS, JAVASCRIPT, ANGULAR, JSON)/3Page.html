@@ -1,5 +1,32 @@
 <html>
 </body>
 <h1>This page will soon be amazing!</h1>
+<body ng-app="app" style="margin: 10px;">
+  <div ng-controller="MainCtrl">
+
+    <table >
+      <thead>
+        <tr>
+          <th ng-class="selectedCls('id')" ng-click="changeSorting('id')">
+          id
+          </th>
+          <th ng-class="selectedCls('name')" ng-click="changeSorting('name')"> 
+          date
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="customer in customers | orderBy:sort.column:sort.descending">
+          <!-- .$orderBy(sort.column, sort.descending) -->
+          <td>{{customer.id}}</td>
+          <td>{{customer.name}}</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    
+    
+  </div>
+</body>
 </body>
 </html>

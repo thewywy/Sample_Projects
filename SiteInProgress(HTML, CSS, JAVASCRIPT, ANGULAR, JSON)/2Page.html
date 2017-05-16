@@ -1,9 +1,22 @@
 <html>
 </body>
-<h1>Customer Filtering</h1>
+<h1>Sorting</h1>
 
-<table ng-table="vm.tableParams" class="table" show-filter="true">
-    <tr ng-repeat="customer in customers">
+<table class="table" show-filter="true">
+	<thead>
+        <tr>
+          <th ng-class="selectedCls('name')" ng-click="changeSorting('name')">
+          Name
+          </th>
+          <th ng-class="selectedCls('id')" ng-click="changeSorting('id')"> 
+          Customer ID
+          </th>
+          <th ng-class="selectedCls('state')" ng-click="changeSorting('state')"> 
+          State
+          </th>
+        </tr>
+      </thead>
+    <tr ng-repeat="customer in customers | orderBy:sort.column:sort.descending">
         <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
             {{customer.name}}</td>
         <td title="'Customer ID'" filter="{ id: 'number'}" sortable="'id'">

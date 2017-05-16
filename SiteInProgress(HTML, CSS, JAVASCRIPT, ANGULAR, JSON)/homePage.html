@@ -1,7 +1,6 @@
 <html ng-app="app" ng-controller="MainCtrl">
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
     <script src="angular-route.min.js"></script>
     <script src="app.js"></script>
     <link rel="stylesheet"; href="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.css">
@@ -9,13 +8,19 @@
     <link rel="stylesheet" type="text/css" href="style.css"></head>
   </head>
   <body >
+
+  <div id="header">
   <table>
     <th><a href="#/">Home</a></th>
     <th><a href="#/1Page">Quiz</a></th>
-    <th><a href="#/2Page">Customer Filtering</a></th>
+    <th><a href="#/2Page">Filtering and Sorting</a></th>
     <th><a href="#/3Page">Even More</a></th>
   </table>
+  </div>
+
   <div ng-view></div>
+  
   <div id="footer">Created using Angular&trade;<br>by Wyatt Sorenson</div>
+
   </body>
 </html>
