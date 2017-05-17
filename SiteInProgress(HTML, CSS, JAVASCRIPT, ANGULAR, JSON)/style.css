@@ -12,12 +12,16 @@ table tr:nth-child(even) {
 body {
     background-color: #00C0C0;
     font-family: Verdana;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 h1{
 	text-align: center;
-	background: aqua;
+	background: teal;
 	border: 2px solid black;
     border-radius: 5px;
+    padding: 5px;
 }
 a{
 	color: #000000;
@@ -25,8 +29,12 @@ a{
 }
 #footer{
 	margin-top: 30px;
+	margin-bottom: 30px;
 	text-align: center;
-	background: aqua;
+	background: teal;
 	border: 2px solid black;
     border-radius: 5px;
+}
+i{
+	padding: 11px;
 }
