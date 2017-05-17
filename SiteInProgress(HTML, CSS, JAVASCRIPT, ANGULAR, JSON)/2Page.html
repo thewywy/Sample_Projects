@@ -1,28 +1,19 @@
 <html>
-</body>
+<body>
 <h1>Sorting</h1>
 
-<table class="table" show-filter="true">
+<table class="table">
 	<thead>
         <tr>
-          <th ng-class="selectedCls('name')" ng-click="changeSorting('name')">
-          Name
-          </th>
-          <th ng-class="selectedCls('id')" ng-click="changeSorting('id')"> 
-          Customer ID
-          </th>
-          <th ng-class="selectedCls('state')" ng-click="changeSorting('state')"> 
-          State
-          </th>
+          <th ng-class="selectedCls('name')" ng-click="changeSorting('name')">Name</th>
+          <th ng-class="selectedCls('id')" ng-click="changeSorting('id')">Customer ID</th>
+          <th ng-class="selectedCls('state')" ng-click="changeSorting('state')">State</th>
         </tr>
-      </thead>
+    </thead>
     <tr ng-repeat="customer in customers | orderBy:sort.column:sort.descending">
-        <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
-            {{customer.name}}</td>
-        <td title="'Customer ID'" filter="{ id: 'number'}" sortable="'id'">
-            {{customer.id}}</td>
-        <td title="'State'" filter="{ state: 'text'}" sortable="'state'">
-            {{customer.state}}</td>
+        <td>{{customer.name}}</td>
+        <td>{{customer.id}}</td>
+        <td>{{customer.state}}</td>
     </tr>
 </table>
 

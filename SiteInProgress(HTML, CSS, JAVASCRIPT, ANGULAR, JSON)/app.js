@@ -31,7 +31,7 @@ app.controller('MainCtrl',function($scope, $http){
 .config(['$routeProvider',function($routeProvider){
 $routeProvider.
 when('/', {
-  template:'<h1>Home</h1>',
+  templateUrl:'home.html',
   controller:'MainCtrl'
   }).
   when('/1Page', {
