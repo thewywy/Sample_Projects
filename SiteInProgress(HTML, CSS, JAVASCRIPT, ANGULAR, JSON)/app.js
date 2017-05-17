@@ -1,7 +1,7 @@
 var app = angular.module('app',['ngRoute', 'ngTable']);
 
 app.controller('MainCtrl',function($scope, $http){
-    $http.get("questionsAnswers.JSON")
+    $http.get("questionsAnswersData.JSON")
     .then(function (response) {$scope.questions = response.data.QandA;});
     $http.get("customerData.JSON")
     .then(function (response) {$scope.customers = response.data.customers;});
