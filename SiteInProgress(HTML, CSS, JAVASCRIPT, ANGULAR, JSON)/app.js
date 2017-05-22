@@ -1,6 +1,6 @@
 var app = angular.module('app',['ngRoute', 'ngTable']);
 
-app.controller('MainCtrl',function($scope, $http){
+app.controller('MainCtrl', function($scope, $http, $filter, $q, NgTableParams){
     $http.get("questionsAnswersData.JSON")
     .then(function (response) {$scope.questions = response.data.QandA;});
     $http.get("customerData.JSON")
@@ -24,8 +24,11 @@ app.controller('MainCtrl',function($scope, $http){
     };
         
     $scope.selectedCls = function(column) {
-        return column == scope.sort.column && 'sort-' + scope.sort.descending;
+        return column == $scope.sort.column && 'sort-' + $scope.sort.descending;
     };
+
+    $scope.tableParams = new NgTableParams({page: 1, count: 10}, {customers: $scope.customers});
+
 })
 
 .config(['$routeProvider',function($routeProvider){
