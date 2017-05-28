@@ -1,0 +1,44 @@
+{
+"customers": [
+	{
+		"company": "Albertsons", 
+		"name": "Anna Arbor", 
+		"address": "575 College Dr 89015", 
+		"phone": "702 568 0115", 
+		"amount": 30000,
+		"account": "Basic"
+	},
+	{
+		"company": "Caesars Entertainment Corp.", 
+		"name": "Carl Cooper", 
+		"address": "Caesars Palace Drive 89109", 
+		"phone": "866 227 5938", 
+		"amount": 500000,
+		"account": "Gold"
+	},
+	{
+		"company": "Kenworth Sales Company", 
+		"name": "Kelly Kellerson", 
+		"address": "3033 Losee Road 89030", 
+		"phone": "702 414 1000", 
+		"amount": 95000,
+		"account": "Silver"
+	},
+	{
+		"company": "Las Vegas Sands Corp.", 
+		"name": "Laura Little", 
+		"address": "3355 Las Vegas Blvd. South 89109", 
+		"phone": "702 414 1000", 
+		"amount": 1000000,
+		"account": "Platinum"
+	},
+	{	
+		"company": "Santa Fe Station Hotel & Casino", 
+		"name": "Samuel Smith", 
+		"address": "4949 N Rancho Dr 89130", 
+		"phone": "866 767 7770", 
+		"amount": 20000000,
+		"account": "Platinum"
+	}
+]
+}

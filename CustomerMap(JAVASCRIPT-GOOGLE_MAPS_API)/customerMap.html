@@ -13,17 +13,20 @@
 
   	<script type="text/javascript">
 
-	var locations = [
-		["Albertsons", "Anna Arbor", "575 College Dr 89015", "702 568 0115", 30000, "Basic"],
-		["Caesars Entertainment Corp.", "Carl Cooper", "Caesars Palace Drive 89109", "866 227 5938", 500000, "Gold"],
-		["Kenworth Sales Company", "Kelly Kellerson", "3033 Losee Road 89030", "702 399 2424", 95000, "Silver"],
-		["Las Vegas Sands Corp.", "Laura Little", "3355 Las Vegas Blvd. South 89109", "702 414 1000", 1000000, "Platinum"],
-		["Santa Fe Station Hotel & Casino", "Samuel Smith", "4949 N Rancho Dr 89130", "866 767 7770", 20000000, "Platinum"]
-	];
+	function readJSON(file) {
+	    var request = new XMLHttpRequest();
+	    request.open('GET', file, false);
+	    request.send(null);
+	    if (request.status == 200)
+	        return request.responseText;
+	};
+
+	var locations = [];
+	locations = JSON.parse(readJSON('mapData.JSON')).customers;
 
 	function dataToHtml(loc) {
 		var brk = "</br><b>";
-		return "<b>" + loc[0] + brk + loc[1] + brk + loc[2] + brk + loc[3] + brk + "Balance: $" + loc[4] + brk + "Account Type: " + loc[5] + "</br>";
+		return "<b>" + loc.company + brk + loc.name + brk + loc.address + brk + loc.phone + brk + "Balance: $" + loc.amount + brk + "Account Type: " + loc.account + "</br>";
 	}
 
 	var delay = 100;
@@ -59,7 +62,6 @@
 	);}
 
 	function createMarker(theInfo,lat,lng) {
-		console.log(theInfo);
 		var contentString = theInfo;
 		var marker = new google.maps.Marker({position: new google.maps.LatLng(lat,lng), map: map,});
 
@@ -73,7 +75,7 @@
 
 	function theNext() {
 		if (nextAddress < locations.length) {
-			setTimeout('geocodeAddress("'+ locations[nextAddress][2] +'","'+ dataToHtml(locations[nextAddress]) +'",theNext)', delay);
+			setTimeout('geocodeAddress("'+ locations[nextAddress].address +'","'+ dataToHtml(locations[nextAddress]) +'",theNext)', delay);
 			nextAddress++;
 		} 
 		else {

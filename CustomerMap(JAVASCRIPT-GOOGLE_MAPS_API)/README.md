@@ -1,6 +1,6 @@
 # Customer Locations by Wyatt Sorenson
 
-Requirements: Browser
+Requirements: Browser, local server (e.g. python's SimpleHTTPServer)
 
 Utilizing the Google Maps API, focus is set on the Las Vegas Metropolitan Area.  
 Customer Addresses are passed to the geocoder function to return the latatude  
