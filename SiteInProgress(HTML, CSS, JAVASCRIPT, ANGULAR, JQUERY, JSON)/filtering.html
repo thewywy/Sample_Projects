@@ -1,0 +1,14 @@
+<html>
+  <body>
+  	<h1>Customer Filtering</h1>
+      <table ng-table="tableParams" class="table" show-filter="true">
+        <tbody>
+          <tr ng-repeat="customer in $fff">
+            <td data-title="'Name'" filter="{name: 'text'}">{{ customer.name }}</td>
+            <td data-title="'ID'" filter="{id: 'number'}">{{ customer.id }}</td>
+            <td data-title="'State'" filter="{state: 'text'}">{{ customer.state }}</td>
+          </tr>
+        </tbody>
+      </table>
+  </body>
+</html>

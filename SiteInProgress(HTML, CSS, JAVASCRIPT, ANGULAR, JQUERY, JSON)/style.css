@@ -1,0 +1,36 @@
+
+#footer{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+body {
+    background-color: #CCD0FF;
+    font-family: Verdana;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+table tr:nth-child(odd) {
+  background-color: #77AAFF;
+}
+table tr:nth-child(even) {
+  background-color: #AACCDD;
+}
+label{
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+input {
+  float: left;
+}
+#confirmInfo{
+  float:bottom;
+}
+#intro{
+  float:top;
+}

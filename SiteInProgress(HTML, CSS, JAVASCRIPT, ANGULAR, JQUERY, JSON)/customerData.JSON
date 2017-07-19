@@ -1,0 +1,138 @@
+{
+    "customers": [
+        {
+            "name": "Fred Smith", 
+            "id": 1033,
+            "state": "NV"
+        },
+        {
+            "name": "Nora Jones", 
+            "id": 1032,
+            "state": "NV"
+        },
+        {
+            "name": "Roger Stafford", 
+            "id": 1044,
+            "state": "OR"
+        },
+        {
+            "name": "Alex Rickstraw", 
+            "id": 1057,
+            "state": "CA"},
+        {
+            "name": "Mary Sue", 
+            "id": 1099,
+            "state": "UT"
+        },
+        {
+            "name": "Sally Fields", 
+            "id": 1074,
+            "state": "AZ"
+        },
+        {
+            "name": "Jerry Hanaway", 
+            "id": 1050,
+            "state": "NM"
+        },
+        {
+            "name": "Julieanne Zlaket", 
+            "id": 1023,
+            "state": "NM"
+        },
+        {
+            "name": "Sarah Swanson", 
+            "id": 1026,
+            "state": "CA"
+        },
+        {
+            "name": "Alan Chandler", 
+            "id": 1013,
+            "state": "CO"
+        },
+        {
+            "name": "Henry Jacobs", 
+            "id": 1025,
+            "state": "NV"
+        },
+        {
+            "name": "Benny Stevenson", 
+            "id": 1088,
+            "state": "ID"
+        },
+        {
+            "name": "Chris Neely", 
+            "id": 1077,
+            "state": "CA"
+        },
+        {
+            "name": "Norma Stevenson", 
+            "id": 1072,
+            "state": "NV"
+        },
+        {
+            "name": "Jenny Cline", 
+            "id": 1144,
+            "state": "NY"
+        },
+                {
+            "name": "Andrew Winkle", 
+            "id": 1133,
+            "state": "MI"
+        },
+                {
+            "name": "Brent Simpson", 
+            "id": 1155,
+            "state": "NV"
+        },
+                {
+            "name": "Zach Rollands", 
+            "id": 1121,
+            "state": "NV"
+        },
+                {
+            "name": "Barry Ordin", 
+            "id": 1111,
+            "state": "OH"
+        },
+                {
+            "name": "James Strang", 
+            "id": 1110,
+            "state": "CA"
+        },
+                {
+            "name": "William Law", 
+            "id": 1001,
+            "state": "AZ"
+        },
+                {
+            "name": "Lucy Mack", 
+            "id": 1005,
+            "state": "AZ"
+        },
+                {
+            "name": "Issac Hale", 
+            "id": 1003,
+            "state": "ID"
+        },
+                {
+            "name": "Peter Stole", 
+            "id": 1092,
+            "state": "WA"
+        },
+                {
+            "name": "Peter Partridge", 
+            "id": 1056,
+            "state": "UT"
+        },
+                {
+            "name": "Andy Williams", 
+            "id": 1037,
+            "state": "CO"
+        },
+                {
+            "name": "Greg Smith", 
+            "id": 1167,
+            "state": "OR"
+        }
+    ]
+}

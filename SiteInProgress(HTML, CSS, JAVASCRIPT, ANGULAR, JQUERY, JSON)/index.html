@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="MainCtrl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wyatt's Examples</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="angular-route.min.js"></script>
+  <script src="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"></head>
+
+</head>
+
+<body>
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" style="position:fixed;">
+  <!-- Avatar image in top left corner -->
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#/" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#/quiz" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-id-card-o w3-xxlarge"></i>
+    <p>QUIZ</p>
+  </a>
+  <a href="#/sorting" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-question w3-xxlarge"></i>
+    <p>SORTING</p>
+  </a>
+  <a href="#/filtering" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>FILTERING</p>
+  </a>
+  <a href="#/photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PRODUCTS</p>
+  </a>
+  <a href="#/contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  </nav>
+
+  <div ng-view style="margin-left:250px"></div>
+
+  <div id="footer">Created using Angular&trade;<br>by Wyatt Sorenson</div>
+
+</body>
+
+</html>
