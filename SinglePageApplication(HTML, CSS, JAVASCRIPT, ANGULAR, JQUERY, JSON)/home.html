@@ -1,0 +1,23 @@
+<h1>Wyatt's Examples</h1>
+<div id="intro" ng-show="nameGiven">
+	<p>Welcome, {{name}} to Wyatt's Sorenson's web examples.</p>
+	<p>Please enter your information:</p>
+	<label class="home">First name:	</label> <input type="text" ng-model="firstName"><br>
+	<label class="home">Last name:	</label>  <input type="text" ng-model="lastName"><br>
+	<label class="home">Age:  </label> <input type="text" ng-model="age"><br>
+	<label class="home">Street Address:	</label>  <input type="text" ng-model="streetAddress"><br>
+	<label class="home">City:	</label>  <input type="text" ng-model="city"><br>
+	<label class="home">State:	</label>  <input type="text" ng-model="state"><br>
+	<label class="home">Zip Code:	</label>  <input type="text" ng-model="zipCode"><br>
+	<label class="home">Phone:	</label> <input type="text" ng-model="phone"><br>
+	<br>
+	<button id="confirmInfo" ng-click="start()">Submit Information</button>	
+</div>
+
+<div id="message" ng-show="!nameGiven">
+	<p>Hello, {{firstName}}  {{lastName}}!  Thank you for taking the time to enter your information. I will be sending you a complementatry gift to:<br><br>
+		{{streetAddress}}<br>
+		{{city}}, {{state}}<br>
+		{{zipCode}}<br><br>
+		Please review the site in the mean time.</p>
+</div>

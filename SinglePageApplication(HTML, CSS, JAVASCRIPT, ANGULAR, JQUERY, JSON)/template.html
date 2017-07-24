@@ -1,18 +1,3 @@
-<div class="container">
-<h1 class="title">QuizApp</h1>
-<quiz/>
-</div>
-
-
-<h1>Wyatt Sorenson's Hiring Quiz</h1>
-<table>
-	<th>Question</th><th>Answer</th>
-  <tr ng-repeat="question in questions">
-    <td>{{ question.q }}</td>
-    <td><div class="answer">{{ question.a }}</div></td>
-  </tr>
-</table>
-
 <div class="quiz-area" ng-show="inProgress">
 	<div ng-show="!quizOver">
 		<h2 id="question">{{question}}</h2>
@@ -44,6 +29,5 @@
 </div>
 
 <div class="intro" ng-show="!inProgress">
-	<p>Welcome to the QuizApp</p>
 	<button id="startQuiz" ng-click="start()">Start the Quiz</button>
 </div>

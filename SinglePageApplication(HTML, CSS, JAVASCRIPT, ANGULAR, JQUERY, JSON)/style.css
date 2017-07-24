@@ -17,20 +17,26 @@ table tr:nth-child(odd) {
 table tr:nth-child(even) {
   background-color: #AACCDD;
 }
-label{
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
+.home{
+    width: 150px;
     padding-top: 5px;
     margin-right: 5px;
 }
-input {
-  float: left;
+label{
+  width: 750px;
 }
-#confirmInfo{
-  float:bottom;
+input {
 }
 #intro{
-  float:top;
+  background-color: #77AAFF;
+  padding: 30px 30px 30px 30px;;
+}
+#message{
+  background-color: #77AAFF;
+  padding: 30px 30px 30px 30px;
+
+}
+.quiz-area{
+  background-color: #77AAFF;
+  padding: 30px 30px 30px 30px;
 }
