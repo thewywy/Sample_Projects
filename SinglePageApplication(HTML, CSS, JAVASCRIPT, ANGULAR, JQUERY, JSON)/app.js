@@ -160,8 +160,8 @@ when('/', {
   templateUrl:'filtering.html',
   controller:'MainCtrl'
   }).
-  when('/photos', {
-  templateUrl:'photos.html',
+  when('/video', {
+  templateUrl:'video.html',
   controller:'MainCtrl'
   }).
   when('/contact', {
