@@ -64,24 +64,24 @@ app.factory('quizFactory', function() {
       answer: 0
     },
     {
-      question: "When did the second world war end?",
-      options: ["1945", "1939", "1944", "1942"],
-      answer: 0
-    },
-    {
-      question: "Which was the first country to issue paper currency?",
-      options: ["USA", "France", "Italy", "China"],
+      question: "Why should you hire Wyatt Sorenson?",
+      options: ["He's got the skills!", "He's a nice guy", "He knows all the best jokes", "All of the above"],
       answer: 3
     },
     {
-      question: "Which city hosted the 1996 Summer Olympics?",
-      options: ["Atlanta", "Sydney", "Athens", "Beijing"],
-      answer: 0
+      question: "What is the basis of his skills",
+      options: ["ABET accredited CS degree", "Web Development Internship", "Years of work experience", "All of the above"],
+      answer: 3
+    },
+    {
+      question: "Are you going to contact him for an interview?",
+      options: ["Interviews are of the past. We hire without interviews.", "Yes, right away!", "No, his code isn't perfect", "No, he needs 5 years expierience"],
+      answer: 1
     },
     { 
-      question: "Who invented telephone?",
-      options: ["Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
-      answer: 1
+      question: "What is Wyatt Sorenson doing this very moment?",
+      options: ["Crying in the corner because he has no job", "Twidling his thumbs waiting for someone to give him a job", "Practicing his skills to showcase them", "Becoming disenchanted of the American Dream"],
+      answer: 2
     }
   ];
 
